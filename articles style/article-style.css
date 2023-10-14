@@ -1,0 +1,184 @@
+@font-face{
+    src: url("../files/Mitra.ttf");
+    font-family: mitra;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    border: 1px solid black;
+    background: url("../files/bg\ 07.png");
+
+    width: 100%;
+    height: 150px;
+    
+    font-family: mitra;
+    color: gold;
+    text-align: right;
+
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row-reverse;
+}
+
+header > h1 {
+    margin-right: 70px;
+    margin-top: 40px;
+}
+
+header > nav{
+    margin-left: 70px;
+    margin-top: 32px;
+}
+
+header > nav > ul{
+    list-style: none;
+
+    display: flex;
+    flex-flow: row-reverse;
+    gap: 15px;
+}
+
+header > nav > ul > li > a:hover{
+    color: gold;
+}
+
+header > nav > ul > li > a{
+    font-family: mitra;
+    font-size: 18px;
+    color: rgb(236, 139, 29);
+    text-decoration: none;
+}
+
+main{
+    background: url("../files/bg\ 19.png");
+
+    width: 100%;
+    height: 500px;
+
+    display: flex;
+    flex-flow: column;
+}
+
+main > table{
+    width: 600px;
+    height: 300px;
+
+    direction: rtl;
+    margin:auto;
+
+    font-family: mitra;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255, 162, 0);
+
+}
+
+main table th,td{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+}
+
+main table td > a:hover {
+    color: rgb(251, 255, 0);
+}
+
+main table td > a{
+    color: rgb(255, 162, 0);
+    text-decoration: none;
+}
+
+main > aside > p{
+    font-family: mitra;
+    font-size: 20px;
+    text-align: right;
+    color: gold;
+
+    margin-right: 50px;
+
+}
+
+
+footer{
+    /* border: 1px solid rgb(0, 17, 255); */
+    background: url("../files/bg\ 07.png");
+    width: 100%;
+    height: 150px;
+
+    padding-top: 40px;
+
+    direction: rtl;
+    position: relative;
+}
+
+
+footer > .button{
+    /* border: 1px solid orange; */
+    width: 200px;
+
+    position: absolute;
+    top: 45px;
+    right: 50px;
+}
+
+footer > .button > button:hover{
+    background: rgb(255, 162, 0);
+    cursor: pointer;
+}
+
+footer > .button > button{
+    border: 0;
+    border-radius: 10px;
+    background: url("../files/bg\ 26.png");
+    width: 70px;
+    height: 30px;
+
+    margin-right: 65px;
+
+    font-family: mitra;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+footer > .button > p{
+    margin-right: 28px;
+    margin-bottom: 25px;
+    width: 150px;
+
+    font-family: mitra;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(255, 162, 0);
+}
+
+footer > .nitLogo:hover{
+    background: url("../files/bg\ 26.png");
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+footer > .nitLogo{
+    width: 70px;
+    height: 80px;
+    
+    position: absolute;
+    top: 45px;
+    left: 80px;
+}
+
+footer > .ahzLogo:hover{
+    background: url("../files/bg\ 26.png");
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+footer > .ahzLogo{
+    width: 90px;
+    height: 70px;
+    
+    position: absolute;
+    top: 55px;
+    left: 165px;
+}
